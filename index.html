@@ -1,58 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF‑8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bohannon Battery</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100 text-gray-800">
-  <header class="bg-yellow-400 py-6 shadow-lg">
-    <div class="max-w-7xl mx-auto px-4 flex items-center justify-between">
-      <h1 class="text-3xl font-bold text-gray-900">Bohannon Battery</h1>
-      <p class="italic text-lg">"For All Your Battery Needs"</p>
+  <!-- Header / Hero -->
+  <header class="bg-yellow-500 py-8 shadow-md">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+      <h1 class="text-4xl font-bold text-gray-900">Bohannon Battery</h1>
+      <p class="mt-2 md:mt-0 italic text-xl text-gray-900">"For All Your Battery Needs"</p>
     </div>
   </header>
 
-  <section class="max-w-7xl mx-auto py-10 px-4">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+  <!-- Hero Banner / Carousel Placeholder -->
+  <section class="max-w-6xl mx-auto mt-8 px-4">
+    <div class="bg-gray-200 h-64 flex items-center justify-center rounded">
+      <p class="text-gray-500 italic">Hero Image / Carousel Here</p>
+    </div>
+  </section>
+
+  <!-- Featured Actions -->
+  <section class="max-w-6xl mx-auto my-8 px-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
+    <div class="bg-white p-6 rounded shadow text-center">
+      <h3 class="font-semibold mb-2">Free Battery Checks</h3>
+      <p>Auto, motorcycle & device diagnostics</p>
+    </div>
+    <div class="bg-white p-6 rounded shadow text-center">
+      <h3 class="font-semibold mb-2">Alternator & Starter Tests</h3>
+      <p>Ensure your vehicle’s power system is performing</p>
+    </div>
+    <div class="bg-white p-6 rounded shadow text-center">
+      <h3 class="font-semibold mb-2">Service Services</h3>
+      <p>Watch, laptop & phone battery replacement</p>
+    </div>
+  </section>
+
+  <!-- Products & Services -->
+  <section class="max-w-6xl mx-auto my-12 px-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
       <div>
         <h2 class="text-2xl font-bold mb-4">Our Products</h2>
-        <ul class="list-disc list-inside space-y-2">
-          <li>Automobile Batteries</li>
-          <li>Motorcycle Batteries</li>
-          <li>Laptop Batteries</li>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+          <li>Automobile & Truck Batteries</li>
+          <li>Motorcycle, Powersports & Marine Batteries</li>
+          <li>Laptop Batteries & Chargers</li>
           <li>Watch Batteries</li>
-          <li>Cell Phone Batteries</li>
+          <li>Cell Phone Batteries & Power Banks</li>
         </ul>
       </div>
       <div>
         <h2 class="text-2xl font-bold mb-4">Our Services</h2>
-        <ul class="list-disc list-inside space-y-2">
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
           <li>Free Battery Checks</li>
           <li>Alternator Testing</li>
           <li>Starter Diagnostics</li>
+          <li>Watch Battery Replacement</li>
+          <li>Laptop & Phone Battery Replacement</li>
         </ul>
       </div>
     </div>
   </section>
 
+  <!-- Image Gallery -->
   <section class="bg-white py-10 px-4">
-    <div class="max-w-7xl mx-auto">
-      <h2 class="text-2xl font-bold mb-6 text-center">Product Gallery</h2>
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-2xl font-bold mb-6 text-center">Product & Service Gallery</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        <div class="bg-gray-200 h-48 rounded shadow flex items-center justify-center text-gray-500">Image 1</div>
-        <div class="bg-gray-200 h-48 rounded shadow flex items-center justify-center text-gray-500">Image 2</div>
-        <div class="bg-gray-200 h-48 rounded shadow flex items-center justify-center text-gray-500">Image 3</div>
-        <div class="bg-gray-200 h-48 rounded shadow flex items-center justify-center text-gray-500">Image 4</div>
-        <div class="bg-gray-200 h-48 rounded shadow flex items-center justify-center text-gray-500">Image 5</div>
-        <div class="bg-gray-200 h-48 rounded shadow flex items-center justify-center text-gray-500">Image 6</div>
+        <div class="bg-gray-200 h-48 rounded shadow flex items-center justify-center text-gray-500">Auto Battery</div>
+        <div class="bg-gray-200 h-48 rounded shadow flex items-center justify-center text-gray-500">Motorcycle Battery</div>
+        <div class="bg-gray-200 h-48 rounded shadow flex items-center justify-center text-gray-500">Laptop Battery</div>
+        <div class="bg-gray-200 h-48 rounded shadow flex items-center justify-center text-gray-500">Phone Battery</div>
+        <div class="bg-gray-200 h-48 rounded shadow flex items-center justify-center text-gray-500">Watch Battery</div>
+        <div class="bg-gray-200 h-48 rounded shadow flex items-center justify-center text-gray-500">Diagnostic Tools</div>
       </div>
     </div>
   </section>
 
-  <footer class="bg-yellow-400 mt-10 py-4">
-    <div class="max-w-7xl mx-auto text-center text-gray-900 font-medium">
+  <!-- Footer -->
+  <footer class="bg-yellow-500 py-6 mt-12 text-center">
+    <div class="max-w-6xl mx-auto text-gray-900 font-medium">
       &copy; 2025 Bohannon Battery. All rights reserved.
     </div>
   </footer>
